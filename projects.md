@@ -33,33 +33,37 @@ https://www.figma.com/file/qzvCvqhSRx3Jq8aywaSjlr/Bitcoin-Design-Guide-Illustrat
 %}
 
 <section class="intro-text" id="intro-text">
-  <p>Explore the high-impact initiatives shaping how Bitcoin will be experienced, understood, and used in the next decade. Each project needs contributors and some need a Directly Responsible Individual to lead the charge.</p>
+  <p>These design initiatives can have a giant impact on bitcoin, and thus, on the world. It is a big ambitious slate of work, one for which we need incredible designers to lean in to help us explore, to create and to lead the charge with us. Bitcoin is money for everyone. But it is also yours—what will you design it to be?</p>
 </section>
 
-{% assign all_categories = site.data.projects.projects | map: "category" | uniq %}
-{% assign project_counter = 0 %}
 <div class="projects-grid">
-  {% for category in all_categories %}
-  {% assign category_projects = site.data.projects.projects | where: "category", category %}
-  <div class="project-category">
-    <div class="project-category__header">
-      <span class="project-category__count">{{ category_projects.size }} Projects</span>
-      <span class="project-category__name">{{ category }}</span>
-    </div>
-    <div class="project-category__list">
-      {% for project in category_projects %}
-      {% assign project_counter = project_counter | plus: 1 %}
-      <div class="project-card">
-        <div class="project-card__content">
-          <span class="project-card__number">{{ project_counter | prepend: '00' | slice: -2, 2 }}</span>
-          <div class="project-card__title">{{ project.title }}</div>
-          <p class="project-card__desc">{{ project.long_description }}</p>
-        </div>
-        <div class="project-card__image">
-          <img src="/assets/images/projects/guide-icon.svg" alt="">
-        </div>
+  {% for project in site.data.projects.projects %}
+  <div class="project-card">
+    <div class="project-card__main">
+      <div class="project-card__content">
+        <span class="project-card__number">{{ forloop.index | prepend: '00' | slice: -2, 2 }}</span>
+        <div class="project-card__title">{{ project.title }}</div>
+        <p class="project-card__desc">{{ project.long_description }}</p>
       </div>
-      {% endfor %}
+      <div class="project-card__image" style="background-color: {{ project.color }};">
+        <img src="/assets/images/projects/{{ project.image }}" alt="">
+      </div>
+    </div>
+    <div class="project-card__meta">
+      <div class="project-card__meta-row">
+        <span class="project-card__meta-label">Key People</span>
+        <span class="project-card__meta-value">{% for person in project.key_people %}{% if person.url %}<a href="{{ person.url }}" target="_blank">{{ person.handle }}</a>{% else %}{{ person.handle }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>
+      </div>
+      <div class="project-card__meta-row">
+        <span class="project-card__meta-label">Status</span>
+        <span class="project-card__status-pill">{{ project.status }}</span>
+      </div>
+      {% if project.connect %}
+      <div class="project-card__meta-row">
+        <span class="project-card__meta-label">Connect</span>
+        <span class="project-card__meta-value">{% if project.connect.url %}<a href="{{ project.connect.url }}">{{ project.connect.channel }}</a>{% else %}{{ project.connect.channel }}{% endif %}</span>
+      </div>
+      {% endif %}
     </div>
   </div>
   {% endfor %}
@@ -96,27 +100,7 @@ https://www.figma.com/file/qzvCvqhSRx3Jq8aywaSjlr/Bitcoin-Design-Guide-Illustrat
    body=collabs_body
    cta_text="See Collaborations"
    cta_url="/collabs/"
-%}
-
-{% capture who_body %}
-<ol class="split-section__list">
-  <li><strong>Designers</strong> who turn abstract systems into everyday tools</li>
-  <li><strong>Artists</strong> who give form to ideas people struggle to name</li>
-  <li><strong>Sculptors</strong> who give form to ideas people struggle to name</li>
-  <li><strong>Writers & thinkers</strong> who clarify meaning without noise</li>
-  <li><strong>Builders</strong> who care how things feel, not just how they function</li>
-  <li><strong>Researchers</strong> who ground ambition in lived reality</li>
-</ol>
-{% endcapture %}
-
-{% include split-section.html
-   class="split-section--reversed"
-   graphic_color="#9EE6FF"
-   graphic_bg_image="/assets/images/projects/creative-block-who--graphic-bg.svg"
-   content_color="#001C4E"
-   label="Who This Is For"
-   headline="We're looking for creatives who can move culture, and make big impressions."
-   body=who_body
+   cta_class="-purple"
 %}
 
 <section class="ordered-cards-section">

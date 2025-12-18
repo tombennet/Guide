@@ -14,10 +14,7 @@
         {{ include.body }}
       </div>
       {% if include.cta_text %}
-      <a href="{{ include.cta_url }}" class="split-section__cta">
-        <span class="split-section__cta-text">{{ include.cta_text }}</span>
-        <span class="split-section__cta-arrow">→</span>
-      </a>
+      <a href="{{ include.cta_url }}" class="button {{ include.cta_class | default: '-white' }}">{{ include.cta_text }}</a>
       {% endif %}
     </div>
   </div>
