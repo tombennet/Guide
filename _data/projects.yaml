@@ -1,0 +1,176 @@
+projects:
+  - id: 1
+    category: Design Resources
+    title: Design Guide refresh
+    short_description: Simplify the Bitcoin Design Guide to make it easier for builders to get their questions answered.
+    long_description: >
+      Simplify the Bitcoin Design Guide’s content and navigation so builders can
+      quickly find answers to real problems. Through user interviews, identify
+      pain points and restructure how guidance is presented. The aim is to
+      increase usage, repeat visits, and recognition of the BDG as a genuinely
+      helpful, go-to resource.
+
+  - id: 2
+    category: Design Resources
+    title: Bitcoin Builder Kit
+    short_description: Make it easier for builders to build with actual code examples and components.
+    long_description: >
+      Create practical code examples, reusable components, and patterns that
+      help developers, AI-assisted builders, and vibe coders build faster.
+      Embrace modern workflows to lower the barrier to entry and drive adoption
+      of the Bitcoin Builder Kit across the ecosystem.
+
+  - id: 3
+    category: Design Resources
+    title: Highlight best practices
+    short_description: Celebrate real bitcoin products doing great design work and hold them up as examples to aspire to.
+    long_description: >
+      Showcase excellent real-world bitcoin products and design decisions.
+      Celebrate teams doing strong work, provide concrete reference points for
+      others, and spread design culture through industry visibility and social
+      media.
+
+  - id: 4
+    category: Design Resources
+    title: BIP design
+    short_description: Help devs communicate the user value of BIPs with design collateral early in the product lifecycle.
+    long_description: >
+      Support developers by adding design thinking and artefacts early in the
+      BIP process. Help communicate user value clearly, improve comprehension,
+      and increase the likelihood of BIPs progressing.
+
+  - id: 5
+    category: Design Advocacy
+    title: Design on social media
+    short_description: Start a regular presence on X engaging the bitcoin building community with design topics, advocacy, and debate.
+    long_description: >
+      Build a consistent, provocative design-led presence on X through content,
+      Spaces, podcasts, critiques, and debate to grow an engaged audience.
+
+  - id: 6
+    category: Design Advocacy
+    title: Building new things
+    short_description: Experiment with new ways to use bitcoin in applications and inspire others to do the same.
+    long_description: >
+      Experiment with novel bitcoin applications and interaction models,
+      showcasing ideas publicly to inspire others and attract designer-builders.
+
+  - id: 7
+    category: Design Advocacy
+    title: Bitcoin vs Stablecoins
+    short_description: Explore how bitcoin provides unique value over stablecoins by identifying use cases and building prototypes.
+    long_description: >
+      Identify where bitcoin offers distinct user value compared to stablecoins
+      or tradfi and validate it through concrete user stories and prototypes.
+
+  - id: 8
+    category: Design Advocacy
+    title: Adopt the ₿ symbol
+    short_description: Drive accessibility of the ₿ symbol in fonts and keyboards so it becomes standard everywhere.
+    long_description: >
+      Advocate for consistent use of the ₿ symbol by improving font support,
+      keyboard access, and industry-wide adoption.
+
+  - id: 9
+    category: Design Advocacy
+    title: Human bitcoin addresses
+    short_description: Drive adoption of BIP353 & BOLT12 across the industry towards an interoperable standard.
+    long_description: >
+      Promote best practices for human-readable bitcoin addresses and campaign
+      for industry-wide adoption of BIP353 and BOLT12.
+
+  - id: 10
+    category: Design Advocacy
+    title: Layer 2 consistency
+    short_description: Advocate for simplicity and consistency as L2s proliferate, keeping bitcoin as the central asset.
+    long_description: >
+      Promote simple, consistent user-facing language and remove L2 branding
+      from user experiences while keeping trust assumptions clear.
+
+  - id: 11
+    category: Design Advocacy
+    title: User story bank
+    short_description: Document real user stories from around the world in a digestible, searchable way.
+    long_description: >
+      Collect and document real, sourced user stories globally in a searchable
+      format that builders, brands, and media can rely on.
+
+  - id: 12
+    category: Product Design
+    title: Reference wallet
+    short_description: Create high fidelity complete wallet designs that adhere to best practices and inspire a team to build it.
+    long_description: >
+      Design a complete, high-fidelity reference wallet that sets a new UX bar
+      and inspires a team to productionise it.
+
+  - id: 13
+    category: Community & Routing
+    title: Routing & tooling
+    short_description: Improve how we funnel users to the community and create a culture of customer support.
+    long_description: >
+      Improve onboarding, navigation, and tooling to make the community easier
+      to engage with and more responsive to design questions.
+
+  - id: 14
+    category: Brand / Marketing Initiatives
+    title: Merchants
+    short_description: Create brand campaigns that persuade merchants to accept bitcoin payments.
+    long_description: >
+      Design campaigns that clearly communicate the benefits of accepting
+      bitcoin and drive merchant adoption.
+
+  - id: 15
+    category: Brand / Marketing Initiatives
+    title: Spenders
+    short_description: Create brand campaigns reminding people that bitcoin can be spent, not just saved.
+    long_description: >
+      Highlight everyday spending use cases to normalise bitcoin as a medium of
+      exchange.
+
+  - id: 16
+    category: Brand / Marketing Initiatives
+    title: Savers
+    short_description: Create brand campaigns showing bitcoin as a great asset to save in with fresh messaging.
+    long_description: >
+      Promote bitcoin as a long-term savings technology with messaging focused
+      on resilience and autonomy.
+
+  - id: 17
+    category: Brand / Marketing Initiatives
+    title: Designer brand campaigns
+    short_description: Create campaigns targeting designers outside bitcoin, drawing them to contribute their creativity.
+    long_description: >
+      Attract designers and technologists beyond the bitcoin ecosystem by
+      positioning bitcoin as culturally and creatively meaningful.
+
+  - id: 18
+    category: Brand / Marketing Initiatives
+    title: Regulators
+    short_description: Create campaigns targeting policymakers to implement bitcoin-forward policies embracing financial freedom.
+    long_description: >
+      Communicate bitcoin’s benefits to policymakers to encourage supportive,
+      forward-looking regulation.
+
+  - id: 19
+    category: Brand / Marketing Initiatives
+    title: Brand awareness
+    short_description: Create campaigns for the general public that lean into fun, experimental and artistic ideas.
+    long_description: >
+      Reframe the public narrative through playful, experimental, and artistic
+      campaigns that others can remix.
+
+  - id: 20
+    category: Design for Safety
+    title: Inheritance
+    short_description: Communicate best practices for inheritance planning including FROST/Taproot and Private Collaborative Custody.
+    long_description: >
+      Document and promote interoperable best practices for bitcoin inheritance
+      to reduce loss and improve long-term security.
+
+  - id: 21
+    category: Design for Safety
+    title: Multi-party self custody
+    short_description: Design UX for multi-party self custody that maximises security while minimising fraud and safety concerns.
+    long_description: >
+      Design user experiences for multi-party self custody that balance security,
+      transparency, and personal safety.

@@ -632,6 +632,35 @@ function toggleLottie(action, element){
     }
 }
 
+// GSAP Text Highlight Animation for intro text
+function initIntroTextAnimation() {
+    var introSection = document.querySelector('.intro-text');
+    var introP = introSection ? introSection.querySelector('p') : null;
+    if (!introP || typeof gsap === 'undefined') return;
+
+    // Manual text split into characters
+    var text = introP.textContent;
+    introP.innerHTML = text.split('').map(function(char) {
+        return char === ' ' ? ' ' : '<span class="char">' + char + '</span>';
+    }).join('');
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    var chars = introP.querySelectorAll('.char');
+
+    // Animate color from faded to full on scroll
+    gsap.to(chars, {
+        color: '#032869',
+        stagger: 0.02,
+        scrollTrigger: {
+            trigger: introSection,
+            start: 'top 70%',
+            end: 'bottom 30%',
+            scrub: 0.5
+        }
+    });
+}
+
 function decideIfLottie(){
     if(!ref.reduceMotion || ref.reduceMotion.matches) {
         stopLottie();
@@ -756,4 +785,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
   for(var k=0; k<ref.modalImageLinks.length; k++) {
       ref.modalImageLinks[k].addEventListener('click', handleModalImageLinkClick);
   }
+
+  // Initialize GSAP intro text animation
+  initIntroTextAnimation();
 });
