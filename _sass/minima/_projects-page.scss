@@ -81,14 +81,32 @@
     }
 }
 
-// Hero supergraphic fade-in animation
-.creative-block-hero + figure.-full-width {
-    opacity: 0;
-    animation: fadeIn 0.8s ease-out 0.15s forwards;
-}
+// Hero image mask reveal animation
+.hero-image-reveal {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-@keyframes fadeIn {
-    to { opacity: 1; }
+    // Match article.guide > .-full-width negative margins
+    @include media-query(medium-down) {
+        margin-left: -$spacing-unit/2;
+        margin-right: -$spacing-unit/2;
+    }
+    @include media-query(large) {
+        margin-left: -$spacing-unit;
+        margin-right: -$spacing-unit;
+    }
+
+    figure { margin: 0; }
+
+    .hero-image-overlay {
+        position: absolute;
+        inset: 0;
+        background: white;
+        z-index: 1;
+    }
 }
 
 // Creative Block Hero Text
@@ -124,6 +142,7 @@
         min-width: 0;
         display: flex;
         flex-direction: column;
+        overflow: hidden;
     }
 
     &__word {

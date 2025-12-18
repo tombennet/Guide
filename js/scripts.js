@@ -679,6 +679,20 @@ function initHeroRevealAnimation() {
         ease: 'power3.out',
         stagger: 0.15
     });
+
+    // Mask reveal hero image
+    var heroImage = document.querySelector('.hero-image-reveal');
+    if (heroImage) {
+        var overlay = heroImage.querySelector('.hero-image-overlay');
+        if (overlay) {
+            gsap.to(overlay, {
+                xPercent: 100,
+                duration: 2,
+                ease: 'power4.out',
+                delay: 0.15
+            });
+        }
+    }
 }
 
 function decideIfLottie(){

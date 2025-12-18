@@ -27,16 +27,19 @@ https://www.figma.com/file/qzvCvqhSRx3Jq8aywaSjlr/Bitcoin-Design-Guide-Illustrat
   </div>
 </div>
 
-{% include picture.html
-   image = "/assets/images/projects/banner-desktop.png"
-   retina = "/assets/images/projects/banner-desktop@2x.png"
-   mobile = "/assets/images/projects/banner-mobile.png"
-   mobileRetina = "/assets/images/projects/banner-mobile@2x.png"
-   alt-text = "Impact Initiatives illustration"
-   width = 1220
-   height = 600
-   layout = "full-width"
-%}
+<div class="hero-image-reveal -full-width">
+  <div class="hero-image-overlay"></div>
+  {% include picture.html
+     image = "/assets/images/projects/banner-desktop.png"
+     retina = "/assets/images/projects/banner-desktop@2x.png"
+     mobile = "/assets/images/projects/banner-mobile.png"
+     mobileRetina = "/assets/images/projects/banner-mobile@2x.png"
+     alt-text = "Impact Initiatives illustration"
+     width = 1220
+     height = 600
+     layout = "full-width"
+  %}
+</div>
 
 <section class="intro-text" id="intro-text">
   <p>These design initiatives can have a giant impact on bitcoin, and thus, on the world. It is a big ambitious slate of work, one for which we need incredible designers to lean in to help us explore, to create and to lead the charge with us. Bitcoin is money for everyone. But it is also yours—what will you design it to be?</p>
