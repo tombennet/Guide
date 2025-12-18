@@ -661,6 +661,26 @@ function initIntroTextAnimation() {
     });
 }
 
+// GSAP Reveal-Up Animation for creative block hero
+function initHeroRevealAnimation() {
+    var hero = document.querySelector('.creative-block-hero');
+    if (!hero || typeof gsap === 'undefined') return;
+
+    var year = hero.querySelector('.creative-block-hero__year');
+    var words = hero.querySelectorAll('.creative-block-hero__word');
+
+    // Animate year first, then each word with stagger
+    var elements = [year].concat(Array.from(words));
+
+    gsap.to(elements, {
+        opacity: 1,
+        y: 0,
+        duration: 0.8,
+        ease: 'power3.out',
+        stagger: 0.15
+    });
+}
+
 function decideIfLottie(){
     if(!ref.reduceMotion || ref.reduceMotion.matches) {
         stopLottie();
@@ -786,6 +806,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       ref.modalImageLinks[k].addEventListener('click', handleModalImageLinkClick);
   }
 
-  // Initialize GSAP intro text animation
+  // Initialize GSAP animations
+  initHeroRevealAnimation();
   initIntroTextAnimation();
 });

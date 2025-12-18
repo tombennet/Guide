@@ -21,14 +21,20 @@ https://www.figma.com/file/qzvCvqhSRx3Jq8aywaSjlr/Bitcoin-Design-Guide-Illustrat
 
 <div class="creative-block-hero">
   <div class="creative-block-hero__year">'26</div>
-  <div class="creative-block-hero__title">Impact<br>Initiatives</div>
+  <div class="creative-block-hero__title">
+    <span class="creative-block-hero__word">Impact</span>
+    <span class="creative-block-hero__word">Initiatives</span>
+  </div>
 </div>
 
 {% include picture.html
-   image = "/assets/images/projects/creative-block--supergraphic.svg"
-   alt-text = "Creative block illustration"
-   width = 1400
-   height = 700
+   image = "/assets/images/projects/banner-desktop.png"
+   retina = "/assets/images/projects/banner-desktop@2x.png"
+   mobile = "/assets/images/projects/banner-mobile.png"
+   mobileRetina = "/assets/images/projects/banner-mobile@2x.png"
+   alt-text = "Impact Initiatives illustration"
+   width = 1220
+   height = 600
    layout = "full-width"
 %}
 

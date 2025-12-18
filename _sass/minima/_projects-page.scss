@@ -81,6 +81,16 @@
     }
 }
 
+// Hero supergraphic fade-in animation
+.creative-block-hero + figure.-full-width {
+    opacity: 0;
+    animation: fadeIn 0.8s ease-out 0.15s forwards;
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
+
 // Creative Block Hero Text
 .creative-block-hero {
     display: flex;
@@ -90,6 +100,7 @@
     font-weight: 500;
     letter-spacing: -0.04em;
     line-height: 0.96;
+    overflow: hidden; // Clip text during reveal animation
 
     // Match article.guide content alignment (same as .center, h1, p, etc.)
     max-width: 800px;
@@ -100,10 +111,26 @@
     // Scale font relative to 800px container
     @include responsive('font-size', 32, 80);
 
-    &__year,
+    &__year {
+        flex: 1;
+        min-width: 0;
+        // Initial state for reveal animation
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
     &__title {
         flex: 1;
         min-width: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__word {
+        display: block;
+        // Initial state for reveal animation
+        opacity: 0;
+        transform: translateY(100%);
     }
 
     @include media-query(small) {
