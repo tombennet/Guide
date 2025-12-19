@@ -1,4 +1,24 @@
 projects:
+  - id: 1
+    image: project_image_01.svg
+    color: "#9ECCA6"
+    category: Product Design
+    title: Reference wallet
+    short_description: Create high fidelity complete wallet designs that adhere to best practices and inspire a team to build it.
+    long_description: >
+      The Design Community should have high fidelity designs for a mobile bitcoin wallet
+      that adheres to all of the best practice guidance in the Guide. And we should find,
+      and partner with, a team to build it out. We all want the amazing bitcoin experience
+      without compromise, so let's show the world what that looks like. Let's get millions
+      to use it. Let's set a new aspirational bar for wallet UX.
+    key_people:
+      - handle: "@gbks"
+        url: https://x.com/gbks
+    status: Planning stage
+    connect:
+      channel: "#general"
+      url: https://discord.gg/hQN5BNWH
+
   - id: 2
     image: project_image_02.svg
     color: "#FFC220"
