@@ -78,6 +78,10 @@ https://www.figma.com/file/qzvCvqhSRx3Jq8aywaSjlr/Bitcoin-Design-Guide-Illustrat
   {% endfor %}
 </div>
 
+**Funding**
+
+*For any designers wanting to commit to full-time design work on these impact initiatives, or similarly ambitious initiatives not yet on our radar, grants are available from [Spiral](https://spiral.xyz/)—a division of Block Inc. that promotes and funds open-source bitcoin development and adoption (and helped convene the Bitcoin Design Community 5+ years ago).*
+
 {% capture community_body %}
 <p>Tools and initiatives created by the community to improve Bitcoin experiences.</p>
 {% endcapture %}

@@ -4,13 +4,9 @@ projects:
     color: "#9ECCA6"
     category: Product Design
     title: Reference wallet
-    short_description: Create high fidelity complete wallet designs that adhere to best practices and inspire a team to build it.
-    long_description: >
-      The Design Community should have high fidelity designs for a mobile bitcoin wallet
-      that adheres to all of the best practice guidance in the Guide. And we should find,
-      and partner with, a team to build it out. We all want the amazing bitcoin experience
-      without compromise, so let's show the world what that looks like. Let's get millions
-      to use it. Let's set a new aspirational bar for wallet UX.
+    short_description: Create high fidelity complete wallet designs that adhere to all of the best practice guidance in the Guide.
+    long_description: |
+      The Design Community should have high fidelity designs for a mobile bitcoin wallet that adheres to all of the best practice guidance in the Guide. And we should find, and partner with, a team to build it out. We all want the amazing bitcoin experience without compromise, so let's show the world what that looks like. Let's get millions to use it. Let's set a new aspirational bar for wallet UX.
     key_people:
       - handle: "@gbks"
         url: https://x.com/gbks
@@ -25,12 +21,8 @@ projects:
     category: Design Resources
     title: Design Guide Refresh
     short_description: Simplify the Bitcoin Design Guide to make it easier for builders to get their questions answered.
-    long_description: >
-      The Bitcoin Design Guide is a substantial and detailed resource. Let’s simplify the
-      content & navigation to make it easier for builders to get their questions answered.
-      Through user interviews, we'll discover pain points to inform the way forward. Let’s
-      get more people visiting the Guide, using the Guide and deriving value from the Guide.
-      The Guide should become an essential destination for anyone building on bitcoin.
+    long_description: |
+      The Bitcoin Design Guide is a substantial and detailed resource. Let's simplify the content & navigation to make it easier for builders to get their questions answered. Through user interviews, we'll discover pain points to inform the way forward. Let's get more people visiting the Guide, using the Guide and deriving value from the Guide. The Guide should become an *essential* destination for anyone building on bitcoin.
     key_people:
       - handle: "Maybe you?"
         url: null
@@ -45,10 +37,8 @@ projects:
     category: Design Resources
     title: Bitcoin Builder Kit
     short_description: Make it easier for builders to build with actual code examples and components.
-    long_description: >
-      Let’s make it easier for builders to build with actual code examples and components.
-      We need to embrace the way AI is changing how the world designs and builds, so let’s
-      empower vibe coders to help them bring to life great bitcoin UX with a few prompts.
+    long_description: |
+      Let's make it easier for builders to build with actual code examples and components. We need to embrace the way AI is changing how the world designs and builds, so let's empower vibe coders to help them bring to life great bitcoin UX with a few prompts.
     key_people:
       - handle: "@StephenDeLorme"
         url: https://x.com/StephenDeLorme
@@ -63,14 +53,8 @@ projects:
     category: Design Resources
     title: Bring Design to the Protocol
     short_description: Help devs communicate the user value of BIPs with design collateral early in the product lifecycle.
-    long_description: >
-      The Design Community can wield Design to help bitcoin devs and researchers advance
-      their proposals for improving the bitcoin protocol, and related protocols (BIPs, BOLTs,
-      BLIPs, NIPs etc). Designers can crystallise user value and bring to life the storytelling
-      around abstract proposals in a way that technical contributors often can not. There is a
-      huge opportunity for designers to insert themselves in the earliest phases of bitcoin R&D
-      work to champion use cases, sell the value proposition and help user-positive changes gain
-      rough consensus.
+    long_description: |
+      The Design Community can wield Design to help bitcoin devs and researchers advance their proposals for improving the bitcoin protocol, and related protocols (BIPs, BOLTs, BLIPs, NIPs etc). Designers can crystallize user value and bring to life the storytelling around abstract proposals in a way that technical contributors often can not. There is a huge opportunity for designers to insert themselves in the earliest phases of bitcoin R&D work to champion use cases, sell the value proposition and help user-positive changes gain rough consensus.
     key_people:
       - handle: "@Yashraj__"
         url: https://x.com/Yashraj__
@@ -85,13 +69,8 @@ projects:
     category: Design Advocacy
     title: Vibe Coding Central
     short_description: Experiment with new ways to use bitcoin in applications and inspire others to do the same.
-    long_description: >
-      The world has changed—with AI tools anyone can now build anything. And bitcoin (and
-      lightning and related infrastructure) is now easier to use than ever. A massive wave of
-      creative builder energy is about to be unleashed. We in the Design Community can show the
-      way forward through experimentation, prototyping and community-driven exploration. When
-      value can flow instantly and permissionlessly across borders—what might the world build?
-      Let’s find out.
+    long_description: |
+      The world has changed—with AI tools anyone can now build anything. And bitcoin (and lightning and related infrastructure) is now easier to use than ever. A massive wave of creative builder energy is about to be unleashed. We in the Design Community can show the way forward through experimentation, prototyping and community-driven exploration. When value can flow instantly and permissionlessly across borders—what might the world build? Let's find out.
     key_people:
       - handle: "@matbalez"
         url: https://x.com/matbalez
@@ -108,12 +87,8 @@ projects:
     category: Design Advocacy
     title: Adopting the ₿ symbol
     short_description: Drive accessibility of the ₿ symbol in fonts and keyboards so it becomes standard everywhere.
-    long_description: >
-      Embracing the ₿ symbol as bitcoin’s fundamental unit is a user-positive, future-oriented
-      change—especially when thinking about payments use cases and large scale adoption. We should
-      all have interest in ensuring bitcoin doesn't disappear from quantities. We should
-      simultaneously increase the accessibility of using the ₿ symbol (e.g. in fonts, on keyboards).
-      Our aim with this initiative will be ubiquitous ₿ symbol use throughout the bitcoin ecosystem.
+    long_description: |
+      Embracing the ₿ symbol as bitcoin's fundamental unit is a user-positive, future-oriented change—especially when thinking about payments use cases and large scale adoption. We should all have interest in ensuring bitcoin doesn't disappear from quantities. We should simultaneously increase the accessibility of using the ₿ symbol (e.g. in fonts, on keyboards). Our aim with this initiative will be ubiquitous ₿ symbol use throughout the bitcoin ecosystem.
     key_people:
       - handle: "@matbalez"
         url: https://x.com/matbalez
@@ -127,12 +102,9 @@ projects:
     color: "#FFC220"
     category: Design Advocacy
     title: Human Bitcoin Addresses
-    short_description: Drive adoption of BIP353 & BOLT12 across the industry towards an interoperable standard.
-    long_description: >
-      BIP-353 represents a better, more interoperable and human-readable addressing scheme for bitcoin.
-      It’s time to drive its adoption throughout the ecosystem. We'll communicate clear best practices for UX,
-      implementation, naming and usage. The Design Community will champion its adoption across the industry
-      through active advocacy and explore applicability in new applications (like AI agents).
+    short_description: Drive adoption of BIP-353 across the industry towards an interoperable standard.
+    long_description: |
+      BIP-353 represents a better, more interoperable and human-readable addressing scheme for bitcoin. It's time to drive its adoption throughout the ecosystem. We'll communicate clear best practices for UX, implementation, naming and usage. The Design Community will champion its adoption across the industry through active advocacy and explore applicability in new applications (like AI agents).
     key_people:
       - handle: "@matbalez"
         url: https://x.com/matbalez
@@ -149,13 +121,8 @@ projects:
     category: Design Advocacy
     title: "Social Media: Full Court Press"
     short_description: Start a regular presence on X engaging the bitcoin building community with design topics, advocacy, and debate.
-    long_description: >
-      The Design Community should be on the front lines of the messy bitcoin narrative-shaping and
-      consensus-building conversations that happen all day, and every day on social media. Design can be a
-      strong voice for the user, for consistency, for simplicity—everywhere. A more vibrant presence on X
-      that engages the bitcoin product building community with design topics, advocacy, debate, design crit
-      and more. More podcasts, regular Spaces, more debate—content that builders and influencers will see,
-      amplify and value.
+    long_description: |
+      The Design Community should be on the front lines of the messy bitcoin narrative-shaping and consensus-building conversations that happen all day, and every day on social media. Design can be a strong voice for the user, for consistency, for simplicity—everywhere. A more vibrant presence on X that engages the bitcoin product building community with design topics, advocacy, debate, design crit and more. More podcasts, regular Spaces, more debate—content that builders and influencers will see, amplify and value.
     key_people:
       - handle: "Maybe you?"
         url: null
@@ -170,10 +137,8 @@ projects:
     category: Design Advocacy
     title: Bitcoin vs Stablecoins
     short_description: Explore how bitcoin provides unique value over stablecoins by identifying use cases and building prototypes.
-    long_description: >
-      Stablecoins are coming—in a big way. The Design Community can & should lead the charge with research
-      and storytelling work to identify the ways in which bitcoin separates itself as the superior form of
-      “new digital money” for the whole world. Shout the use cases, the unique value, why the world should care.
+    long_description: |
+      Stablecoins are coming—in a big way. The Design Community can & should lead the charge with research and storytelling work to identify the ways in which bitcoin separates itself as the superior form of "new digital money" for the whole world. Shout the use cases, the unique value, why the world should care.
     key_people:
       - handle: "Maybe you?"
         url: null
@@ -188,11 +153,8 @@ projects:
     category: Design Resources
     title: Celebrate Design Craft
     short_description: Celebrate real bitcoin products doing great design work and hold them up as examples to aspire to.
-    long_description: >
-      Let’s celebrate the best of bitcoin design. We should shine the spotlight on teams and products that are
-      putting exceptional bitcoin design craft, design thinking into the world. Such a real-world showcase will
-      become the reference points to which builders across the ecosystem should aspire. We can bring a new level
-      of design culture to bitcoin writ large.
+    long_description: |
+      Let's celebrate the best of bitcoin design. We should shine the spotlight on teams and products that are putting exceptional bitcoin design craft, design thinking into the world. Such a real-world showcase will become the reference points to which builders across the ecosystem should aspire. We can bring a new level of design culture to bitcoin writ large.
     key_people:
       - handle: "@uxerik_"
         url: https://x.com/uxerik_
@@ -207,12 +169,8 @@ projects:
     category: Design Advocacy
     title: Consistency Across L2s
     short_description: Advocate for simplicity and consistency as L2s proliferate, keeping bitcoin as the central asset.
-    long_description: >
-      As new “Layer 2s” proliferate, the Design Community should be the voice of simplicity and consistency.
-      The voice for bitcoin. Let’s resist the temptation to bring L2 brands and L2 language into UIs wherever
-      possible. Let’s have the technology disappear. Yet, let’s make sure trust assumptions and risks are clear,
-      and well-understood. It may take some new language, some new metaphors. Let’s explore the best way to keep
-      bitcoin simple, consistent and interoperable even as the complexity of the entire system continues to grow.
+    long_description: |
+      As new "Layer 2s" proliferate, the Design Community should be the voice of simplicity and consistency. The voice for bitcoin. Let's resist the temptation to bring L2 brands and L2 language into UIs wherever possible. Let's have the technology disappear. Yet, let's make sure trust assumptions and risks are clear, and well-understood. It may take some new language, some new metaphors. Let's explore the best way to keep bitcoin simple, consistent and interoperable even as the complexity of the entire system continues to grow.
     key_people:
       - handle: "Maybe you?"
         url: null
@@ -227,11 +185,8 @@ projects:
     category: Design Advocacy
     title: Humans of bitcoin
     short_description: Document real user stories from around the world in a digestible, searchable way.
-    long_description: >
-      Let’s document real user stories from around the world that show the tangible ways in which bitcoin is
-      improving human lives. We can build a digestible, searchable, useful and inspiring resource that showcases
-      the positive uses. Such a “user story bank” can help dispel counternarratives, can be a valuable source of
-      information for media and can be a source of inspiration for brand work.
+    long_description: |
+      Let's document real user stories from around the world that show the tangible ways in which bitcoin is improving human lives. We can build a digestible, searchable, useful and inspiring resource that showcases the positive uses. Such a "user story bank" can help dispel counternarratives, can be a valuable source of information for media and can be a source of inspiration for brand work.
     key_people:
       - handle: "@MouxDesign"
         url: https://x.com/MouxDesign
@@ -246,12 +201,8 @@ projects:
     category: Community & Routing
     title: A More Responsive Community
     short_description: Improve how we funnel users to the community and create a culture of "customer support".
-    long_description: >
-      We want to improve how responsive the Design Community is to the wider bitcoin community. Let’s create a
-      culture of “customer service” to serve the needs of the industry. We can make it fast and easy for anyone to
-      ask and answer questions. We can increase the ways in which industry designers engage with us. We can help
-      people get started, get contributing, get building more quickly. Let’s explore new tools, new processes, new
-      ways of working. The open community is here to help.
+    long_description: |
+      We want to improve how responsive the Design Community is to the wider bitcoin community. Let's create a culture of "customer service" to serve the needs of the industry. We can make it fast and easy for anyone to ask and answer questions. We can increase the ways in which industry designers engage with us. We can help people get started, get contributing, get building more quickly. Let's explore new tools, new processes, new ways of working. The open community is here to help.
     key_people:
       - handle: "Maybe you?"
         url: null
@@ -266,10 +217,8 @@ projects:
     category: Design for Safety
     title: Inheritance
     short_description: Communicate best practices for inheritance planning including FROST/Taproot and Private Collaborative Custody.
-    long_description: >
-      Let’s communicate best practices for inheritance planning and work with existing providers on interoperability.
-      This should include best practices for FROST/Taproot and Private Collaborative Custody. All savings wallets should
-      implement inheritance best practice—as bitcoin must be designed to span generations.
+    long_description: |
+      Let's communicate best practices for inheritance planning and work with existing providers on interoperability. This should include best practices for FROST/Taproot and Private Collaborative Custody. All savings wallets should implement inheritance best practice—as bitcoin must be designed to span generations.
     key_people:
       - handle: "Maybe you?"
         url: null
@@ -283,12 +232,9 @@ projects:
     color: "#9EE6FF"
     category: Design for Safety
     title: Multi-party self custody
-    short_description: Design UX for multi-party self custody that maximizes security while minimizing fraud and safety concerns.
-    long_description: >
-      Let’s design simple UX and workflows for multi-party self custody. We can explore examples ranging from small
-      non-profits to small businesses to strategic reserves for nation states. The UX will need to consider maximizing
-      coin security, maximizing personal safety, minimizing fraud as well as considering transparency and the transfer
-      of power. Important work!
+    short_description: Design UX for multi-party self custody that maximizes security while minimizing fraud as well as considering transparency and the transfer of power.
+    long_description: |
+      Let's design simple UX and workflows for multi-party self custody. We can explore examples ranging from small non-profits to small businesses to strategic reserves for nation states. The UX will need to consider maximizing coin security, maximizing personal safety, minimizing fraud as well as considering transparency and the transfer of power. Important work!
     key_people:
       - handle: "Maybe you?"
         url: null
@@ -298,34 +244,29 @@ projects:
       url: https://discord.gg/hQN5BNWH
 
   - id: 16
-    image: project_name_16.svg
+    image: project_image_01.svg
     color: "#9ECCA6"
-    category: Brand / Marketing Initiatives
-    title: Branding—for everyone
-    short_description: Create campaigns for the general public that lean into fun, experimental and artistic ideas.
-    long_description: >
-      Let’s create brand campaigns and other marketing initiatives that target the population at large to reframe the
-      narrative. Let’s get a bit crazy. We can lean into experimental and artistic ideas that point the way forward for
-      the industry, and the world. Our assets and creative direction can equip and inspire builders, users, companies and
-      all of the other brand we hope the community undertakes.
+    category: Design Advocacy
+    title: Grounding Quantum Risk
+    short_description: Use design to contextualize quantum risk and bitcoin's long-term cryptographic safety.
+    long_description: |
+      The risk and realities around quantum risk in bitcoin are currently poorly understood by mainstream users and investors—particularly in the face of self-interested parties hyping quantum technology. How likely is it that a quantum computer will break bitcoin cryptography? What happens if it does? Can bitcoin be made safe? All of these questions have good answers, and answers are available, but we think we can use design to tell the story to a broad audience to contextualize the risk around a quantum break and how bitcoin can, and will continue.
     key_people:
       - handle: "Maybe you?"
         url: null
     status: Planning stage
     connect:
-      channel: "#brand"
-      url: https://discord.gg/ucJV9vnV
+      channel: "#general"
+      url: https://discord.gg/hQN5BNWH
 
   - id: 17
-    image: project_name_17.svg
+    image: project_image_02.svg
     color: "#FFC220"
     category: Brand / Marketing Initiatives
-    title: Branding—for merchants
-    short_description: Create brand campaigns that persuade merchants to accept bitcoin payments.
-    long_description: >
-      Let’s create brand campaigns and other marketing initiatives that persuade merchants to accept bitcoin payments.
-      The Bitcoin Merchant Community is a good recent example of how a very focused and practical message can resonate.
-      There’s lots more to do, especially with taking this message internationally.
+    title: Branding
+    short_description: Create brand campaigns and other marketing initiatives that reframe the narrative.
+    long_description: |
+      Let's create brand campaigns and other marketing initiatives that target various constituencies within bitcoin with laser-focused messaging and compelling story-telling. Let's reframe the narrative. Let's get a bit crazy. We can lean into experimental and artistic ideas that point the way forward for the industry, and the world. Our assets and creative direction can equip and inspire builders, users, companies and all of the other brands we hope the community undertakes. We can target **merchants**, **savers**, **spenders**, **policymakers**, **designers** and the **population at large** with bespoke campaigns, assets and messages that will, hopefully finally, break through.
     key_people:
       - handle: "Maybe you?"
         url: null
@@ -335,70 +276,17 @@ projects:
       url: https://discord.gg/ucJV9vnV
 
   - id: 18
-    image: project_name_18.svg
+    image: project_image_03.svg
     color: "#AE66D6"
-    category: Brand / Marketing Initiatives
-    title: Branding—for spenders
-    short_description: Create brand campaigns reminding people that bitcoin can be spent, not just saved.
-    long_description: >
-      Let’s create brand campaigns and other marketing initiatives that show people that bitcoin is not just for savings,
-      but that it can be used out in the world too. If bitcoin is money, we need to learn that we can spend it.
+    category: Design Advocacy
+    title: Making Privacy Permeate
+    short_description: Make usable privacy a first-class, mainstream expectation in bitcoin products.
+    long_description: |
+      Privacy is no longer optional; it's rapidly becoming existential for bitcoin users and the ecosystem's future. Recent alarming trends enabled by privacy failures – physical attacks stemming from privacy leaks and the legal persecution of privacy projects like Samourai, illustrate the critical moment we're in. There is so much work to be done to make privacy permeate throughout the ecosystem: to achieve usable privacy in everyday bitcoin products, to spur mainstream adoption of privacy features, and cultivate the mainstream awareness needed to protect developers and users.
     key_people:
-      - handle: "Maybe you?"
-        url: null
-    status: Planning stage
+      - handle: "@Yashraj__"
+        url: https://x.com/Yashraj__
+    status: Active advocacy underway
     connect:
-      channel: "#brand"
-      url: https://discord.gg/ucJV9vnV
-
-  - id: 19
-    image: project_name_19.svg
-    color: "#015EFE"
-    category: Brand / Marketing Initiatives
-    title: Branding—for savers
-    short_description: Create brand campaigns showing bitcoin as a great asset to save in with fresh messaging.
-    long_description: >
-      Let’s create brand campaigns and other marketing initiatives that remind people that bitcoin is a great asset to save
-      in. We should explore fresh new angles that strike a different chord than the typical “number go up” memes that have
-      come to dominate so much of bitcoin discourse.
-    key_people:
-      - handle: "Maybe you?"
-        url: null
-    status: Planning stage
-    connect:
-      channel: "#brand"
-      url: https://discord.gg/ucJV9vnV
-
-  - id: 20
-    image: project_name_20.svg
-    color: "#9EE6FF"
-    category: Brand / Marketing Initiatives
-    title: Branding—for designers
-    short_description: Create campaigns targeting designers outside bitcoin, drawing them to contribute their creativity.
-    long_description: >
-      Let’s create brand campaigns and other marketing initiatives that target brand and tech designers outside the bitcoin
-      ecosystem, drawing them towards bitcoin as something that values creativity and design and is worthy of their effort.
-    key_people:
-      - handle: "Maybe you?"
-        url: null
-    status: Planning stage
-    connect:
-      channel: "#brand"
-      url: https://discord.gg/ucJV9vnV
-
-  - id: 21
-    image: project_name_21.svg
-    color: "#9ECCA6"
-    category: Brand / Marketing Initiatives
-    title: Branding—for regulators
-    short_description: Create campaigns targeting policymakers to implement bitcoin-forward policies embracing financial freedom.
-    long_description: >
-      Let’s create brand campaigns that target government & public policymakers around the world to implement policies that
-      are bitcoin-forward and embrace more financial freedom, sovereignty and empowerment.
-    key_people:
-      - handle: "Maybe you?"
-        url: null
-    status: Planning stage
-    connect:
-      channel: "#brand"
-      url: https://discord.gg/ucJV9vnV
+      channel: "#privacy"
+      url: https://discord.gg/MuXfrfSv
