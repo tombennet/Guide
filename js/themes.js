@@ -46,6 +46,7 @@ var themes = [
   //       link: "https://github.com/BitcoinDesign/Guide/pull/27"
   //   }
   // },
+  /* --- Themes temporarily disabled for Impact Initiatives 2026 ---
   {
     // Bridging bitcoin
     logo: {
@@ -376,6 +377,7 @@ var themes = [
         link: "https://github.com/BitcoinDesign/Guide/issues/1110"
     }
   },
+  --- End of temporarily disabled themes --- */
   {
     // Creative Block
     logo: {
