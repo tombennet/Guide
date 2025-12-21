@@ -7,7 +7,7 @@ main_nav: true
 nav_order: 4
 main_classes: -no-top-padding
 body_class: theme-projects
-image: https://bitcoin.design/assets/images/projects/projects-preview.jpg
+image: /assets/images/projects/og-twitter.png
 ---
 
 <!--
