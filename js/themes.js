@@ -419,7 +419,7 @@ var themes = [
         pathMobileRetina: 'url("/assets/images/home/banner/creative-block-image-mobile@2x.png")',
         backgroundColor: "#9EE6FF"
     },
-    flipLayoutOnMobile: false,
+    flipLayoutOnMobile: true,
     author: {
         name: "PX/PUSH",
         link: "https://pxpush.com"
