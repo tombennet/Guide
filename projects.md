@@ -91,7 +91,7 @@ https://www.figma.com/file/qzvCvqhSRx3Jq8aywaSjlr/Bitcoin-Design-Guide-Illustrat
    class="split-section--reversed"
    graphic_color="#1134F5"
    graphic_bg_image="/assets/images/projects/section--community-project.svg"
-   graphic_image="/assets/images/projects/supergraphic--community-projects-grid.svg"
+   graphic_image="/assets/images/projects/supergraphic--community-projects-grid.png"
    content_color="#000032"
    label="Community Projects"
    headline="Built by the Community, for Bitcoin"
