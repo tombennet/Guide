@@ -244,7 +244,7 @@ projects:
       url: https://discord.gg/hQN5BNWH
 
   - id: 16
-    image: project_image_01.svg
+    image: project_name_16.svg
     color: "#9ECCA6"
     category: Design Advocacy
     title: Grounding Quantum Risk
@@ -260,7 +260,7 @@ projects:
       url: https://discord.gg/hQN5BNWH
 
   - id: 17
-    image: project_image_02.svg
+    image: project_name_17.svg
     color: "#FFC220"
     category: Brand / Marketing Initiatives
     title: Branding

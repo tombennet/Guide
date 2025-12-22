@@ -261,6 +261,10 @@
         letter-spacing: -0.6px;
         color: rgba(0, 0, 75, 0.75);
         margin: 0;
+
+        strong {
+            color: inherit !important;
+        }
     }
 
     &__image {
@@ -416,6 +420,7 @@
 
         a {
             color: #032869;
+            text-decoration: underline;
 
             &:hover {
                 color: $brand-color;

@@ -12,7 +12,7 @@ videoWidth: 1600
 videoHeight: 840
 ---
 
-### Now's the time: let's level-up bitcoin design
+## Now's the time: let's level-up bitcoin design
 
 Our theme for 2026 is: Impact. Our Impact Initiatives are areas in which we believe Design can dramatically improve bitcoin, and thus, the world. It is a big ambitious slate of work, one for which we need incredible designers to lean in to help us explore, to create and to lead the charge with us.
 

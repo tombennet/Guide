@@ -145,8 +145,8 @@ article.guide .split-section__list li {
     @include media-query(small) {
         flex-direction: column;
         min-height: auto;
-        margin-top: $spacing-unit;
-        margin-bottom: $spacing-unit;
+        margin-top: 0;
+        margin-bottom: 0;
 
         &__graphic,
         &__content {
