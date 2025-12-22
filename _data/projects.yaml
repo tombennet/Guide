@@ -113,7 +113,7 @@ projects:
     status: Active advocacy underway
     connect:
       channel: "#bip-353"
-      url: null
+      url: https://discord.gg/M7nJksmJ
 
   - id: 8
     image: project_image_08.svg
@@ -192,8 +192,8 @@ projects:
         url: https://x.com/MouxDesign
     status: Planning stage
     connect:
-      channel: "#general"
-      url: https://discord.gg/hQN5BNWH
+      channel: "#humans-of-bitcoin"
+      url: https://discord.gg/FGvTWr3D
 
   - id: 13
     image: project_image_13.svg
