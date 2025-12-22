@@ -351,6 +351,10 @@
 
 // Responsive
 @include media-query(small) {
+    .hide-mobile {
+        display: none;
+    }
+
     .projects-grid {
         gap: $spacing-unit * 2;
         padding: $spacing-unit * 2 0;
