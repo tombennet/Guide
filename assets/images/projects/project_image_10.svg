@@ -1,13 +1,1 @@
-<svg width="217" height="217" viewBox="0 0 217 217" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="217" height="217" fill="#9EE6FF"/>
-<rect width="12" height="12" transform="matrix(-1 0 0 1 85 72)" fill="#032869"/>
-<rect width="12" height="12" transform="matrix(-1 0 0 1 97 84)" fill="#032869"/>
-<rect width="12" height="12" transform="matrix(-1 0 0 1 109 96)" fill="#032869"/>
-<rect width="12" height="12" transform="matrix(-1 0 0 1 85 120)" fill="#032869"/>
-<rect width="12" height="12" transform="matrix(-1 0 0 1 133 72)" fill="#032869"/>
-<rect width="12" height="12" transform="matrix(-1 0 0 1 121 108)" fill="#032869"/>
-<rect width="12" height="12" transform="matrix(-1 0 0 1 97 132)" fill="#032869"/>
-<rect width="12" height="12" transform="matrix(-1 0 0 1 145 84)" fill="#032869"/>
-<rect width="12" height="12" transform="matrix(-1 0 0 1 133 120)" fill="#032869"/>
-<rect width="12" height="12" transform="matrix(-1 0 0 1 145 132)" fill="#032869"/>
-</svg>
+<svg fill="none" height="217" viewBox="0 0 217 217" width="217" xmlns="http://www.w3.org/2000/svg"><path d="m0 0h217v217h-217z" fill="#9ee6ff"/><g fill="#032869"><path d="m0 0h12v12h-12z" transform="matrix(-1 0 0 1 85 72)"/><path d="m0 0h12v12h-12z" transform="matrix(-1 0 0 1 97 84)"/><path d="m0 0h12v12h-12z" transform="matrix(-1 0 0 1 109 96)"/><path d="m0 0h12v12h-12z" transform="matrix(-1 0 0 1 85 120)"/><path d="m0 0h12v12h-12z" transform="matrix(-1 0 0 1 133 72)"/><path d="m0 0h12v12h-12z" transform="matrix(-1 0 0 1 121 108)"/><path d="m0 0h12v12h-12z" transform="matrix(-1 0 0 1 97 132)"/><path d="m0 0h12v12h-12z" transform="matrix(-1 0 0 1 145 84)"/><path d="m0 0h12v12h-12z" transform="matrix(-1 0 0 1 133 120)"/><path d="m0 0h12v12h-12z" transform="matrix(-1 0 0 1 145 132)"/></g></svg>
