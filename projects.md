@@ -1,7 +1,8 @@
 ---
 layout: guide
-title: Projects
-description: Projects some of us are involved in or think highly of.
+title: Impact Initiatives 2026 - Bitcoin Design Community
+nav_title: Projects
+description: Ambitious design projects to dramatically improve bitcoin. Grants available from Spiral for designers ready to lead open-source bitcoin product design.
 permalink: /projects/
 main_nav: true
 nav_order: 4
