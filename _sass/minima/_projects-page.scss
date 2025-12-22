@@ -357,7 +357,12 @@
 
     .projects-grid {
         gap: $spacing-unit * 2;
-        padding: $spacing-unit * 2 0;
+        padding: $spacing-unit * 2 0 $spacing-unit / 2 0;
+    }
+
+    // Add space between funding section and first split section
+    p + .split-section {
+        margin-top: $spacing-unit * 3;
     }
 
     .project-category__list {

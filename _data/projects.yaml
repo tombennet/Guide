@@ -92,7 +92,7 @@ projects:
     key_people:
       - handle: "@matbalez"
         url: https://x.com/matbalez
-    status: Active advocacy<span class="hide-mobile"> underway</span>
+    status: Active advocacy <span class="hide-mobile">underway</span>
     connect:
       channel: "#bip-177"
       url: https://discord.gg/GPXH25FG
@@ -110,7 +110,7 @@ projects:
         url: https://x.com/matbalez
       - handle: "@ConorOkus"
         url: https://x.com/ConorOkus
-    status: Active advocacy<span class="hide-mobile"> underway</span>
+    status: Active advocacy <span class="hide-mobile">underway</span>
     connect:
       channel: "#bip-353"
       url: https://discord.gg/M7nJksmJ
@@ -286,7 +286,7 @@ projects:
     key_people:
       - handle: "@Yashraj__"
         url: https://x.com/Yashraj__
-    status: Active advocacy<span class="hide-mobile"> underway</span>
+    status: Active advocacy <span class="hide-mobile">underway</span>
     connect:
       channel: "#privacy"
       url: https://discord.gg/MuXfrfSv
