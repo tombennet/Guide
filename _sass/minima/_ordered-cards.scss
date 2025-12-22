@@ -1,0 +1,82 @@
+// Ordered Cards Component
+// Fits within standard article.guide 800px content width
+
+.ordered-cards-section {
+    padding: $spacing-unit * 2 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ordered-cards-container {
+    display: flex;
+    gap: $spacing-unit * 0.5;
+    align-items: flex-start;
+    width: 100%;
+
+    @include media-query(medium-down) {
+        flex-wrap: wrap;
+    }
+
+    @include media-query(small) {
+        flex-wrap: wrap;
+        gap: $spacing-unit * 0.5;
+    }
+}
+
+.ordered-card {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-unit * 0.5;
+    flex: 1;
+    min-width: 0;
+
+    @include media-query(medium-down) {
+        flex: 1 1 calc(50% - #{$spacing-unit * 0.25});
+        max-width: calc(50% - #{$spacing-unit * 0.25});
+    }
+
+    @include media-query(small) {
+        flex: 1 1 calc(50% - #{$spacing-unit * 0.25});
+        max-width: calc(50% - #{$spacing-unit * 0.25});
+    }
+
+    &__square {
+        width: 100%;
+        aspect-ratio: 1;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            max-width: 50%;
+            max-height: 50%;
+            width: auto;
+            height: auto;
+        }
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        gap: $spacing-unit * 0.5;
+    }
+
+    // Reuse split-section label pattern
+    &__number {
+        font-family: $code-font-family;
+        font-size: $small-font-size;
+        text-transform: uppercase;
+        letter-spacing: 1.4px;
+        line-height: 1;
+    }
+
+    // Reuse base font size with tighter line-height
+    &__description {
+        font-size: $base-font-size;
+        line-height: 1.2;
+        letter-spacing: -0.02em;
+        margin: 0;
+    }
+}

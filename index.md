@@ -12,6 +12,14 @@ videoWidth: 1600
 videoHeight: 840
 ---
 
+## Now's the time: let's level-up bitcoin design
+
+Our theme for 2026 is: Impact. Our Impact Initiatives are areas in which we believe Design can dramatically improve bitcoin, and thus, the world. It is a big ambitious slate of work, one for which we need incredible designers to lean in to help us explore, to create and to lead the charge with us.
+
+[View Impact Initiatives]({{ '/projects/' | relative_url }}){: .button }
+
+---
+
 ## We are helping make [bitcoin](https://bitcoin.org) more intuitive and accessible.
 
 As bitcoin’s popularity continues to rise, it is essential that everyone be able to participate in this new economy regardless of technical expertise or geography. That can only happen if creators everywhere have the resources and community necessary to foster better bitcoin experiences.

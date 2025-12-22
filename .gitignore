@@ -3,6 +3,9 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+.bundle/
+.claude/
+_/
 
 # OS GENERATED
 .DS_Store

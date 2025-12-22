@@ -46,6 +46,7 @@ var themes = [
   //       link: "https://github.com/BitcoinDesign/Guide/pull/27"
   //   }
   // },
+  /* --- Themes temporarily disabled for Impact Initiatives 2026 ---
   {
     // Bridging bitcoin
     logo: {
@@ -374,6 +375,54 @@ var themes = [
     author: {
         name: "Sushant Faujdar and Abhijay Jain",
         link: "https://github.com/BitcoinDesign/Guide/issues/1110"
+    }
+  },
+  --- End of temporarily disabled themes --- */
+  {
+    // Creative Block
+    logo: {
+        path: "/assets/bitcoin-design-community-banner.svg",
+        fillColor: "transparent",
+        outlineColor: "#032869"
+    },
+    title: {
+        fillColor: "#032869",
+        outlineColor: "transparent"
+    },
+    description: {
+        fillColor: "#2A588E"
+    },
+    button1: {
+        fillColor: "#FFFFFF",
+        outlineColor: "#FFFFFF",
+        labelFillColor: "#032869"
+    },
+    button2: {
+        fillColor: "#FFFFFF",
+        outlineColor: "#FFFFFF",
+        labelFillColor: "#032869"
+    },
+    background: {
+        path: '',
+        pathRetina: '',
+        pathMobile: '',
+        pathMobileRetina: '',
+        backgroundColor: "#9EE6FF"
+    },
+    copy: {
+        backgroundColor: "#9EE6FF"
+    },
+    image: {
+        path: 'url("/assets/images/home/banner/creative-block-image.png")',
+        pathRetina: 'url("/assets/images/home/banner/creative-block-image@2x.png")',
+        pathMobile: 'url("/assets/images/home/banner/creative-block-image-mobile.png")',
+        pathMobileRetina: 'url("/assets/images/home/banner/creative-block-image-mobile@2x.png")',
+        backgroundColor: "#9EE6FF"
+    },
+    flipLayoutOnMobile: true,
+    author: {
+        name: "PX/PUSH",
+        link: "https://pxpush.com"
     }
   }
 ];

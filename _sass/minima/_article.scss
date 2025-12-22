@@ -54,6 +54,26 @@ article.guide {
         border-color: var(--link-hover-color);
       }
     }
+
+    &.-white {
+      background-color: white;
+      color: #032869;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.9);
+        color: #032869;
+      }
+    }
+
+    &.-purple {
+      background-color: #AE66D6;
+      color: white;
+
+      &:hover {
+        background-color: darken(#AE66D6, 10%);
+        color: white;
+      }
+    }
   }
 
   a.video-link,

@@ -80,3 +80,410 @@
         }
     }
 }
+
+// Hero image mask reveal animation
+.hero-image-reveal {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    // Match article.guide > .-full-width negative margins
+    @include media-query(medium-down) {
+        margin-left: -$spacing-unit/2;
+        margin-right: -$spacing-unit/2;
+    }
+    @include media-query(large) {
+        margin-left: -$spacing-unit;
+        margin-right: -$spacing-unit;
+    }
+
+    figure { margin: 0; }
+
+    .hero-image-overlay {
+        position: absolute;
+        inset: 0;
+        background: white;
+        z-index: 1;
+    }
+}
+
+// Creative Block Hero Text
+.creative-block-hero {
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+    font-family: $base-font-family;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    line-height: 0.96;
+    overflow: hidden; // Clip text during reveal animation
+
+    // Match article.guide content alignment (same as .center, h1, p, etc.)
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: $spacing-unit;
+
+    // Scale font relative to 800px container
+    @include responsive('font-size', 32, 80);
+
+    &__year {
+        flex: 1;
+        min-width: 0;
+        // Initial state for reveal animation
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    &__title {
+        flex: 1;
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    &__word {
+        display: block;
+        // Initial state for reveal animation
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    @include media-query(small) {
+        gap: 10px;
+    }
+}
+
+// Intro Text Section with GSAP scroll animation
+.intro-text {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: $spacing-unit * 2 0;
+
+    p {
+        font-family: $base-font-family;
+        font-weight: 400;
+        line-height: 0.96;
+        letter-spacing: -0.03em;
+        margin: 0;
+
+        // Proportional to hero (hero 32-80px → intro 20-47px)
+        @include responsive('font-size', 20, 47);
+
+        // Mobile-specific adjustments
+        @include media-query(small) {
+            font-size: 24px;
+            line-height: 1.4;
+        }
+
+        // Characters start faded, animate to full color
+        .char {
+            color: rgba(3, 40, 105, 0.2);
+        }
+    }
+}
+
+// Projects Grid
+.projects-grid {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-unit * 2;
+    padding: $spacing-unit * 2 0;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+    // Add spacing after projects grid before split sections on mobile
+    @include media-query(small) {
+        margin-bottom: $spacing-unit * 3;
+    }
+}
+
+.project-category {
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: $spacing-unit;
+        border-bottom: 1px solid #ccc;
+        font-family: $code-font-family;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1.4px;
+        line-height: 0.99;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        gap: $spacing-unit;
+        padding-top: $spacing-unit;
+    }
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-unit;
+    width: 100%;
+    padding-top: $spacing-unit;
+    border-top: 1px solid rgba(3, 40, 105, 0.2);
+
+    &__main {
+        display: flex;
+        gap: $spacing-unit * 2;
+        align-items: flex-start;
+    }
+
+    &__content {
+        flex: 1;
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+        gap: $spacing-unit * 0.75;
+    }
+
+    &__number {
+        font-family: $code-font-family;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1.4px;
+        line-height: 0.99;
+        color: #032869;
+        margin: 0;
+    }
+
+    &__title {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.12;
+        letter-spacing: -0.6px;
+        color: #032869;
+        margin: 0;
+    }
+
+    &__desc {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: -0.6px;
+        color: rgba(0, 0, 75, 0.75);
+        margin: 0;
+
+        strong {
+            color: inherit !important;
+        }
+    }
+
+    &__image {
+        width: 217px;
+        height: 217px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    // Metadata section
+    &__meta {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__meta-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: $spacing-unit * 0.5 0;
+        border-top: 1px solid rgba(3, 40, 105, 0.2);
+    }
+
+    &__meta-label {
+        font-family: $code-font-family;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1.4px;
+        line-height: 0.99;
+        color: #032869;
+    }
+
+    &__meta-value {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.12;
+        letter-spacing: -0.6px;
+        color: #00004b;
+
+        a {
+            color: #00004b;
+            text-decoration: underline;
+
+            &:hover {
+                color: $brand-color;
+            }
+        }
+    }
+
+    // Status pill
+    &__status-pill {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 16px;
+        background: #ededf3;
+        border-radius: 24px;
+        font-family: $code-font-family;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1.4px;
+        line-height: 0.99;
+        color: #00004b;
+    }
+}
+
+// Responsive
+@include media-query(small) {
+    .projects-grid {
+        gap: $spacing-unit * 2;
+        padding: $spacing-unit * 2 0;
+    }
+
+    .project-category__list {
+        flex-direction: column;
+    }
+
+    .project-card {
+        &__main {
+            flex-direction: column;
+            gap: $spacing-unit;
+        }
+
+        &__content {
+            order: 2;
+        }
+
+        &__image {
+            order: 1;
+            width: 217px;
+            height: 217px;
+        }
+
+        &__title,
+        &__desc {
+            font-size: 18px;
+        }
+
+        &__meta-value {
+            font-size: 18px;
+        }
+    }
+}
+
+// Projects landing page theme
+.theme-projects {
+
+    // Header links
+    .site-header {
+        .site-title {
+            color: #032869;
+
+            svg {
+                color: #032869;
+            }
+
+            &:hover {
+                color: $brand-color;
+
+                svg {
+                    color: $brand-color;
+                }
+            }
+        }
+
+        .site-nav .page-link {
+            color: #032869;
+
+            &:hover {
+                color: $brand-color;
+            }
+        }
+
+        .nav-search svg {
+            color: #032869;
+        }
+    }
+
+    // Body copy and headings
+    .main {
+        color: #032869;
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #032869;
+        }
+
+        a {
+            color: #032869;
+            text-decoration: underline;
+
+            &:hover {
+                color: $brand-color;
+            }
+        }
+    }
+
+    // Footer
+    .site-footer {
+        .wrapper {
+            border-color: #032869;
+
+            // Logo
+            a.-logo svg {
+                color: #032869;
+            }
+
+            // Social icons
+            nav.social-media-list a svg {
+                fill: #032869;
+
+                path {
+                    fill: #032869;
+                }
+            }
+
+            // Edit/License links
+            .edit-license {
+                border-top-color: #032869;
+
+                a {
+                    color: #032869;
+
+                    &:hover {
+                        color: $brand-color;
+                    }
+                }
+            }
+
+            // Footer nav
+            nav.footer-nav {
+                border-top-color: #032869;
+
+                a {
+                    color: #032869;
+
+                    &:hover,
+                    &.active {
+                        color: $brand-color;
+                    }
+                }
+            }
+        }
+    }
+}

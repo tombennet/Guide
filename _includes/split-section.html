@@ -1,0 +1,21 @@
+<section class="split-section -full-width {{ include.class }}">
+  <div class="split-section__graphic {{ include.graphic_class }}" style="{% if include.graphic_color %}background-color: {{ include.graphic_color }};{% endif %}{% if include.graphic_bg_image %}background-image: url('{{ include.graphic_bg_image }}'); background-position: center center; background-repeat: no-repeat; background-size: cover;{% endif %}">
+    {% if include.graphic_image %}<img src="{{ include.graphic_image }}" alt="" class="split-section__graphic-image">{% endif %}
+  </div>
+  <div class="split-section__content" {% if include.content_color %}style="background-color: {{ include.content_color }};"{% endif %}>
+    <div class="split-section__inner">
+      {% if include.label %}
+      <span class="split-section__label">{{ include.label }}</span>
+      {% endif %}
+      {% if include.headline %}
+      <h2 class="split-section__headline">{{ include.headline }}</h2>
+      {% endif %}
+      <div class="split-section__body">
+        {{ include.body }}
+      </div>
+      {% if include.cta_text %}
+      <a href="{{ include.cta_url }}" class="button {{ include.cta_class | default: '-white' }}">{{ include.cta_text }}</a>
+      {% endif %}
+    </div>
+  </div>
+</section>

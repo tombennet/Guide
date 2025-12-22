@@ -632,6 +632,69 @@ function toggleLottie(action, element){
     }
 }
 
+// GSAP Text Highlight Animation for intro text
+function initIntroTextAnimation() {
+    var introSection = document.querySelector('.intro-text');
+    var introP = introSection ? introSection.querySelector('p') : null;
+    if (!introP || typeof gsap === 'undefined') return;
+
+    // Manual text split into characters
+    var text = introP.textContent;
+    introP.innerHTML = text.split('').map(function(char) {
+        return char === ' ' ? ' ' : '<span class="char">' + char + '</span>';
+    }).join('');
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    var chars = introP.querySelectorAll('.char');
+
+    // Animate color from faded to full on scroll
+    gsap.to(chars, {
+        color: '#032869',
+        stagger: 0.02,
+        scrollTrigger: {
+            trigger: introSection,
+            start: 'top 70%',
+            end: 'bottom 30%',
+            scrub: 0.5
+        }
+    });
+}
+
+// GSAP Reveal-Up Animation for creative block hero
+function initHeroRevealAnimation() {
+    var hero = document.querySelector('.creative-block-hero');
+    if (!hero || typeof gsap === 'undefined') return;
+
+    var year = hero.querySelector('.creative-block-hero__year');
+    var words = hero.querySelectorAll('.creative-block-hero__word');
+
+    // Animate year first, then each word with stagger
+    var elements = [year].concat(Array.from(words));
+
+    gsap.to(elements, {
+        opacity: 1,
+        y: 0,
+        duration: 0.8,
+        ease: 'power3.out',
+        stagger: 0.15
+    });
+
+    // Mask reveal hero image
+    var heroImage = document.querySelector('.hero-image-reveal');
+    if (heroImage) {
+        var overlay = heroImage.querySelector('.hero-image-overlay');
+        if (overlay) {
+            gsap.to(overlay, {
+                xPercent: 100,
+                duration: 2,
+                ease: 'power4.out',
+                delay: 0.15
+            });
+        }
+    }
+}
+
 function decideIfLottie(){
     if(!ref.reduceMotion || ref.reduceMotion.matches) {
         stopLottie();
@@ -756,4 +819,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
   for(var k=0; k<ref.modalImageLinks.length; k++) {
       ref.modalImageLinks[k].addEventListener('click', handleModalImageLinkClick);
   }
+
+  // Initialize GSAP animations
+  initHeroRevealAnimation();
+  initIntroTextAnimation();
 });
