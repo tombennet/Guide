@@ -70,7 +70,7 @@ https://www.figma.com/file/qzvCvqhSRx3Jq8aywaSjlr/Bitcoin-Design-Guide-Illustrat
       </div>
       {% if project.connect %}
       <div class="project-card__meta-row">
-        <span class="project-card__meta-label">Connect</span>
+        <span class="project-card__meta-label">Join the discussion</span>
         <span class="project-card__meta-value">{% if project.connect.url %}<a href="{{ project.connect.url }}">{{ project.connect.channel }}</a>{% else %}{{ project.connect.channel }}{% endif %}</span>
       </div>
       {% endif %}
