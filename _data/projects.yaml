@@ -13,7 +13,7 @@ projects:
     status: Planning stage
     connect:
       channel: "#general"
-      url: https://discord.gg/hQN5BNWH
+      url: https://discord.gg/Exnh2pye4H
 
   - id: 2
     image: project_image_02.svg
@@ -29,7 +29,7 @@ projects:
     status: Planning stage
     connect:
       channel: "#bitcoin-design-guide"
-      url: https://discord.gg/RMZB6nzd
+      url: https://discord.gg/rBRqnjDnmC
 
   - id: 3
     image: project_image_03.svg
@@ -45,7 +45,7 @@ projects:
     status: Alpha stage, approaching v1 launch
     connect:
       channel: "#bitcoin-builder-kit"
-      url: https://discord.gg/KtW9xB7p
+      url: https://discord.gg/km4pzgc5aG
 
   - id: 4
     image: project_image_04.svg
@@ -61,7 +61,7 @@ projects:
     status: Planning stage
     connect:
       channel: "#general"
-      url: https://discord.gg/hQN5BNWH
+      url: https://discord.gg/Exnh2pye4H
 
   - id: 5
     image: project_image_05.svg
@@ -79,7 +79,7 @@ projects:
     status: Planning stage
     connect:
       channel: "#general"
-      url: https://discord.gg/hQN5BNWH
+      url: https://discord.gg/Exnh2pye4H
 
   - id: 6
     image: project_image_06.svg
@@ -95,7 +95,7 @@ projects:
     status: Active advocacy underway
     connect:
       channel: "#bip-177"
-      url: https://discord.gg/GPXH25FG
+      url: https://discord.gg/amVyhmzZ3s
 
   - id: 7
     image: project_image_07.svg
@@ -113,7 +113,7 @@ projects:
     status: Active advocacy underway
     connect:
       channel: "#bip-353"
-      url: https://discord.gg/M7nJksmJ
+      url: https://discord.gg/Ja8ke7Kg2G
 
   - id: 8
     image: project_image_08.svg
@@ -129,7 +129,7 @@ projects:
     status: Planning stage
     connect:
       channel: "#general"
-      url: https://discord.gg/hQN5BNWH
+      url: https://discord.gg/Exnh2pye4H
 
   - id: 9
     image: project_image_09.svg
@@ -145,7 +145,7 @@ projects:
     status: Planning stage
     connect:
       channel: "#general"
-      url: https://discord.gg/hQN5BNWH
+      url: https://discord.gg/Exnh2pye4H
 
   - id: 10
     image: project_image_10.svg
@@ -160,8 +160,8 @@ projects:
         url: https://x.com/uxerik_
     status: Planning stage
     connect:
-      channel: "#spreadtheword"
-      url: https://discord.gg/WfRj85Pa
+      channel: "#spread-the-word"
+      url: https://discord.gg/nGeeNJqSNs
 
   - id: 11
     image: project_image_11.svg
@@ -177,7 +177,7 @@ projects:
     status: Planning stage
     connect:
       channel: "#general"
-      url: https://discord.gg/hQN5BNWH
+      url: https://discord.gg/Exnh2pye4H
 
   - id: 12
     image: project_image_12.svg
@@ -193,7 +193,7 @@ projects:
     status: Planning stage
     connect:
       channel: "#humans-of-bitcoin"
-      url: https://discord.gg/FGvTWr3D
+      url: https://discord.gg/7HF6EgACZ5
 
   - id: 13
     image: project_image_13.svg
@@ -209,7 +209,7 @@ projects:
     status: Planning stage
     connect:
       channel: "#general"
-      url: https://discord.gg/hQN5BNWH
+      url: https://discord.gg/Exnh2pye4H
 
   - id: 14
     image: project_image_14.svg
@@ -225,7 +225,7 @@ projects:
     status: Planning stage
     connect:
       channel: "#general"
-      url: https://discord.gg/hQN5BNWH
+      url: https://discord.gg/Exnh2pye4H
 
   - id: 15
     image: project_image_15.svg
@@ -241,7 +241,7 @@ projects:
     status: Planning stage
     connect:
       channel: "#general"
-      url: https://discord.gg/hQN5BNWH
+      url: https://discord.gg/Exnh2pye4H
 
   - id: 16
     image: project_name_16.svg
@@ -257,7 +257,7 @@ projects:
     status: Planning stage
     connect:
       channel: "#general"
-      url: https://discord.gg/hQN5BNWH
+      url: https://discord.gg/Exnh2pye4H
 
   - id: 17
     image: project_name_17.svg
@@ -273,7 +273,7 @@ projects:
     status: Planning stage
     connect:
       channel: "#brand"
-      url: https://discord.gg/ucJV9vnV
+      url: https://discord.gg/V6v4xXCKbU
 
   - id: 18
     image: project_image_03.svg
@@ -289,4 +289,4 @@ projects:
     status: Active advocacy underway
     connect:
       channel: "#privacy"
-      url: https://discord.gg/MuXfrfSv
+      url: https://discord.gg/AQefTMm5hK
