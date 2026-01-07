@@ -308,7 +308,7 @@ For example, the mockups below show how a typical wallet activity screen might b
 
 ### Adoption
 
-As of November 2025, wallets that have adopted this new ₿-only format include:
+As of January 2026, wallets that have adopted this new ₿-only format include:
 
  - [Boardwalk Cash](https://boardwalkcash.com/)
  - [Bitkit](https://bitkit.to/)
@@ -320,6 +320,7 @@ As of November 2025, wallets that have adopted this new ₿-only format include:
  - [Agicash](https://alpha.agi.cash/)
  - [Cash App](https://x.com/milessuter/status/1989792769406361926)
  - [Alby Hub](https://albyhub.com/)
+ - [Ecash App](https://ecash.love/)
 
 In November 2025, [Square](https://squareup.com/us/en/bitcoin) launched bitcoin payments support in their point-of-sale software in the US. It adopts the ₿-only format by default in the merchant-facing product, customer-facing UI and on printed receipts.  
 
