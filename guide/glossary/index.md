@@ -426,7 +426,7 @@ A portable data format for transactions before they are verified by the network.
 
 - [BIP174](https://github.com/bitcoin/bips/blob/master/bip-0174.mediawiki): Partially Signed Bitcoin Transaction Format
 - [BIP370](https://github.com/bitcoin/bips/blob/master/bip-0370.mediawiki): PSBT Version 2
-- [PSBT Versions Deep Dive](https://chaincase.app/words/interactive-transactions-psbt)
+- [PSBT Versions Deep Dive](https://river.com/learn/what-are-partially-signed-bitcoin-transactions-psbts/)
 
 ###  Passphrase
 A passphrase can be added to the [recovery phrase](#recovery-phrase) for extra security.
